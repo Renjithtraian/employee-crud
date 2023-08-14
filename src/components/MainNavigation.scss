@@ -1,0 +1,33 @@
+
+.navbar{
+    background-color: #ffff;
+    // background-color: #101820;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 8rem;
+    max-width: 100%;
+    font-family: 'Roboto', sans-serif;
+    h2{
+        color: #055565;
+        font-size: 1.8rem;
+    }
+    nav{
+        ul{
+            display: flex;
+            li{
+                margin: 0 1.5rem;
+                a{
+                    color: #055565;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                }
+                a.active{
+                    color: #178fa7;
+                    border-bottom: 2px solid #178fa7;
+                }
+            }
+        }
+    }
+}
